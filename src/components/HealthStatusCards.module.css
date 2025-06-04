@@ -1,0 +1,82 @@
+.cardsContainer {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-left:45px;
+ 
+  
+}
+
+.card {
+ display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid #eee;
+    border-radius: 21px;
+    padding: 17px;
+    background-color: #f5ebff;
+  
+}
+
+
+.cardIcon {
+  display: flex;
+  justify-content: start;
+  gap:18px
+}
+
+.cardTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  color: rgb(26, 14, 152);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardDate {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.progressBar {
+  background-color: #red;
+    width: 150px;
+    height: 8px;
+  border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid cyan;
+    background-color: cyan;
+   
+}
+
+.progress {
+  height: 100%;
+ border-radius: 10px;
+  transition: width 0.3s ease;
+
+}
+
+.detailsLink {
+  align-self: flex-end;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #3ca5ff;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.iconSize {
+  width: 24px;
+  height: 23px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 23px;
+  
+}

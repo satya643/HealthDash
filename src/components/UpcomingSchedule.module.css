@@ -1,0 +1,36 @@
+.upcomingSchedule {
+  padding: 22px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.cards {
+  display: flex;
+  gap: 98px;
+  margin: -7px 0px 0px -6px;
+  display: flex;
+  gap: 13px;
+  align-items: stretch;
+  padding-left:15px;
+     padding: 0 3px;
+  
+}
+
+.scheduleSection + .scheduleSection {
+  margin-top: 15px;
+}
+
+.scheduleSection h4 {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 10px;
+} 
+.upcomeHeader {
+  color:rgb(8, 55, 121);
+  font-size: 1.125rem;
+}

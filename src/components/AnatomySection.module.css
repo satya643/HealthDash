@@ -1,0 +1,86 @@
+.anatomySection {
+  position: relative;
+  background-color: #f5ebff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 495px;
+}
+
+.bodyImage {
+    max-width: 100%;
+    width: 275px;
+    object-fit: contain;
+    max-height: 100%;
+    border-radius: 20px;
+    padding: 48px;
+    position: relative;
+  
+}
+
+.labels {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+   background-color: rgb(42, 26, 209);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.labelIcon {
+  margin-right: 6px;
+  color: #3ca5ff;
+}
+
+.labelText {
+  font-size: 0.85rem;
+  white-space:nowrap;
+  overflow: hidden;
+  padding: 3px;
+  color: #333;
+
+}
+.scanContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scanningEffect {
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(0, 140, 255, 0.6), rgba(0, 140, 255, 0.2), transparent);
+  animation: scanTrail 1.5s ease-in-out infinite;
+  filter: blur(1px);
+  border-radius: 4px;
+  z-index: 2;
+}
+
+@keyframes scanTrail {
+  0% {
+    top: 0%;
+    opacity: 0.5;
+  }
+  50% {
+    top: 50%;
+    opacity: 1;
+  }
+  100% {
+    top: 100%;
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,12 @@
+.overview {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+ margin-bottom: 0px;
+}
+
+.topSection {
+  display: flex;
+  margin-left: 49px;
+  
+}

@@ -1,0 +1,153 @@
+.parentDashboard {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+ 
+}  
+
+.center {
+  flex: auto;
+  padding-right: 0rem;
+  min-width: 0;
+  width: 562px;
+  
+  
+  /* margin-bottom: 22px; */
+}
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap:1rem;
+  background-color:rgb(255, 255, 255);
+  padding: 0.5rem 1rem;
+  margin-bottom: 4px;
+  position:relative;
+  align-items:center;
+  margin-left: 5px;
+}
+.searchIcon {
+  position:absolute;
+  left:16px;
+  cursor: pointer;
+  margin-left: 16px;
+  color:rgb(88, 133, 197); 
+  width: 20px;
+  height:20px;
+  opacity:0.5px;
+}
+.searchInput { 
+  width: 474px;
+  padding: 12px  16px;
+  background:  #f4f7fa;
+  border-radius: 10px;
+  padding-left: 50px;
+  border: none;
+  background: transparent;
+  font-size: 0.9rem;
+  outline: none;
+  border: 1px rgba(0, 0, 0, 0.15);
+  opacity:0.3;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.31);
+}
+.bellIcon {
+  margin-left: 0px;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  width: 41px;
+  height: 41px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px #ccc;
+  fill:rgb(22, 19, 181); 
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); 
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+.bellIcon:hover {
+  background-color: rgba(29, 27, 150, 0.2);
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 1.1rem;
+  margin-left: 21px;
+}
+
+/* .content {
+   margin-top: 1rem;
+   margin-left:2rem;
+} */
+
+.rightContainer {
+      position: sticky;
+    top: 0;
+    right: 0px;
+    width: 508px;
+    padding: 10px 0px;
+    background-color: #f5ebff;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-left: 9px;
+    margin-right: 0px;
+}
+
+.topRightIcons {
+    margin-right: 37px;
+    margin-top: 1px;
+    padding-top: 46px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;       
+  object-fit: cover;       
+  border: 1px solid rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05); 
+  color:rgb(49, 159, 187); 
+  background-color:rgb(120, 228, 255); 
+  cursor:pointer;
+  
+}
+.plusIcon {
+  cursor: pointer;
+  width:40px;
+  height:40px;
+  align-items:center;
+  justify-content:center;
+  background-color: rgb(12, 15, 185); 
+  border: 1px solid #ccc;   
+  border-radius: 10px;
+  padding: 6px;
+  color:rgb(255, 255, 255);  
+}
+.rightContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.dashHead{
+  display:flex;
+  justify-content:space-between;
+}
+.VieweThisWeek {
+  background:none;
+  border:none; 
+  text-align:center;
+}
