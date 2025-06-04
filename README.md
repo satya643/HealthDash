@@ -1,6 +1,10 @@
-git init 
+## 🚀 Git Commands to Push Project to GitHub
+
+```bash
+git init
 git add .
-git commit -m "commit message"
-git branch -M main (if branch is master/main) 
-git remote add origin <GithubLink >
-git push -u origin main/master based branch 
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin <your-github-repo-link>
+git push -u origin main
+
